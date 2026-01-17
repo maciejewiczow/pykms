@@ -4,7 +4,7 @@ project('pykms', 'cpp',
     meson_version : '>= 0.64',
     version : '0.0.0',
     default_options : [
-        'cpp_std=c++17',
+        'cpp_std=c++20',
     ],)
 
 message('Cloning from: @0@, revision @1@'.format(get_option('repository'), get_option('revision')))
